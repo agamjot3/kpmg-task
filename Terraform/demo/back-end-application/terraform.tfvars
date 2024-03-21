@@ -1,0 +1,9 @@
+env_name         = "demo"
+application_name = "kpmg-back-end"
+ami_id           = "ami-080e1f13689e07408"
+instance_type    = "t3a.medium"
+volume_size      = 12
+asg_min_size     = "1"
+asg_max_size     = "4"
+asg_desired_size = "1"
+userdata_path    = "userdata.sh"
